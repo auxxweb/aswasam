@@ -146,7 +146,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -157,7 +157,7 @@
                 </ol>
             </nav>
         </div>
-    </div>
+    </div> -->
     <!-- Page Header End -->
 
 
@@ -174,7 +174,7 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
                     <h1 class="mb-4 text-green">Why You Should Trust Us? Get Know About Us!</h1>
-                    <p>Welcome to Aswasam, established in 2004, your sanctuary for Ayurvedic healing. We specialize in authentic treatments designed to rejuvenate the body and mind, including body massage, njavarakizhi, pizhichil, and shirodhara. Our skilled practitioners create personalized wellness plans, blending ancient wisdom with modern techniques in a serene environment. Discover the transformative power of Ayurveda with us, and embark on a journey towards holistic well-being.</p>
+                    <p>Welcome to Aswasam, established in 2024, your sanctuary for Ayurvedic healing. We specialize in authentic treatments designed to rejuvenate the body and mind, including body massage, njavarakizhi, pizhichil, and shirodhara. Our skilled practitioners create personalized wellness plans, blending ancient wisdom with modern techniques in a serene environment. Discover the transformative power of Ayurveda with us, and embark on a journey towards holistic well-being.</p>
                     <p><i class="far fa-check-circle text-green me-3"></i>Quality health care</p>
                     <p><i class="far fa-check-circle text-green me-3"></i>Only Qualified Doctors</p>
                     <p><i class="far fa-check-circle text-green me-3"></i>Medical Research Professionals</p>
@@ -223,8 +223,7 @@
                                 </div>
                             </div>
     
-                            <!-- Qualifications Section -->
-                            <!-- FontAwesome CDN in <head> -->
+                            
                             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
                             <!-- Icon Section -->
@@ -333,7 +332,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Address</h5>
-                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt"></i>  Madackal Cherthala</p>
+                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt"></i>Madackal Cherthala</p>
                     <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>8075040440</p>
                     <p class="mb-2 text-white"><i class="fa fa-envelope me-3"></i>aswasamayur@gmail.com</p>
                     <div class="d-flex pt-2">
@@ -373,15 +372,65 @@
                     style="color: rgb(75, 75, 75) !important;"
                     type="email"
                     name="email"
+                    required
                     placeholder="Enter your mail"
                   />
                   <button id="s-btn1">
-                    SignUp
-                  </button>
-
-                  <button class="btn text-white py-2 position-absolute top-0 end-0 mt-2 me-2" style="background-color: #15bd29;display: none;" id="loading1">
+                    Subscribe
+                </button>
+                
+                <button class="btn text-white py-2 position-absolute top-0 end-0 mt-2 me-2" style="display: none;" id="loading1">
                     Subscribing...
-                  </button>
+                </button>
+                
+                <style>
+                 #s-btn1 {
+                    background: linear-gradient(135deg, #065f11, #20ae07); /* Beautiful gradient from Coral to Tomato */
+                    border: none;
+                    color: white;
+                    padding: 12px 25px; /* Bigger padding for more emphasis */
+                    font-size: 18px; /* Slightly larger text */
+                    font-weight: bold;
+                    border-radius: 30px; /* Rounder corners */
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+                    cursor: pointer;
+                    transition: all 0.4s ease; /* Smooth transitions on hover */
+                    text-transform: uppercase;
+                    letter-spacing: 1px; /* Add spacing between letters */
+                }
+                
+                /* Hover effect */
+                #s-btn1:hover {
+                    background: linear-gradient(135deg, #097923, #1cb904); /* Change to more vivid colors */
+                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+                    transform: translateY(-3px); /* Lift effect */
+                }
+                
+                /* Active state (when clicked) */
+                #s-btn1:active {
+                    transform: translateY(1px); /* Slight push effect when clicked */
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+                }
+                
+                /* Loading button */
+                #loading1 {
+                    background: linear-gradient(135deg, #4CAF50, #81C784); /* Green gradient for subscribing */
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    border-radius: 20px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+                    animation: pulse 1.5s infinite; /* Subtle pulsing animation */
+                }
+                
+                /* Pulse animation for loading button */
+                @keyframes pulse {
+                    0% { box-shadow: 0 0 0 rgba(76, 175, 80, 0.7); }
+                    70% { box-shadow: 0 0 20px rgba(76, 175, 80, 0.7); }
+                    100% { box-shadow: 0 0 0 rgba(76, 175, 80, 0.7); }
+                }
+                </style>
                   </form>
                     <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
                     <!-- <div class="position-relative mx-auto" style="max-width: 400px;">

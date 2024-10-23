@@ -61,9 +61,6 @@
                     <small>8075040440</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <!-- <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
                     <a class="btn btn-sm-square rounded-circle bg-white text-green me-0" href="https://www.instagram.com/aswasam_ayurveda?igsh=MWQ2NmZtejVkbGlnNA=="><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
@@ -100,8 +97,6 @@
                     <a href="./service.html" class="btn custom-btn rounded-full py-4 px-1 d-flex justify-content-center align-items-center text-center" style="margin-top: 10px; width: 100%;">
                         Appointment<i class="fa fa-arrow-right ms-2"></i>
                     </a>
-                    
-                    
                 </div>
             </div>
             
@@ -123,9 +118,7 @@
                     color: #218838; /* Darker green on hover */
                 }
             </style>
-            
-         
-            
+        
             <style>
                 .custom-btn {
                     background-color: #076612; 
@@ -142,23 +135,117 @@
                     border: 2px solid #ffffff; /* White border on hover */
                 }
             </style>
-            
         </div>
     </nav>
     <!-- Navbar End -->
 
 
     <!-- Header Start -->
-    <div class="container-fluid header align-items-center px-10 mb-0">
+    <div class="container-fluid header align-items-center px-10 mb-0" >
+        <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+            <!-- Left Section -->
+            <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s" style="margin-top: -50px;">
+                <div class="left-section text-center text-lg-start" style="margin-top: -30px;" >
+                    <img src="./img/Home/file.png" alt="Icon" class="mx-lg-5 img-fluid" style="max-width: 80%; height: auto;">
+                    <h1 class="sanctuary-title font-playfair text-3xl font-bold leading-tight text-gray-800 md:text-4xl lg:text-5xl mt-3">
+                        The Essence of Ayurvedic Care
+                    </h1>
+                    <p class="font-playfair text-xl font-light italic leading-relaxed mt-4 text-gray-700 md:text-2xl">
+                        A serene space where ancient Ayurvedic wisdom meets modern wellness. Offering personalized treatments and natural therapies, it harmonizes mind, body, and spirit to restore balance and promote holistic well-being.
+                    </p>
+                    <div class="d-flex justify-content-center  mt-3">
+                        <a href="./service.html" class="btn custom-btn rounded-pill px-4 py-2">
+                            Appointment <i class="fa fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Right Section: Carousel -->
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="margin-top: -110px;">
+                <div class="owl-carousel header-carousel">
+                    <!-- Slide 1 -->
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid carousel-img" src="img/Home/arbor-day-2.jpg" alt="Arbor Day Nurture Image">
+                        <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="display-3 text-white mb-0">Nurture</h1>
+                        </div>
+                    </div>
+    
+                    <!-- Slide 2 -->
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid carousel-img" src="img/Home/side-view-man-relaxing-spa.jpg" alt="Man Relaxing in Spa">
+                        <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="display-3 text-white mb-0">Find Your Peace</h1>
+                        </div>
+                    </div>
+    
+                    <!-- Slide 3 -->
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid carousel-img" src="img/Home/herbal-compress-herbal-spa-treatment-equipments-put-dark-floor.jpg" alt="Herbal Spa Treatment">
+                        <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="display-3 text-white mb-0">Herbal Bliss</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+    /* Font customization */
+    .font-playfair {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    /* Button Styling */
+    .custom-btn {
+        
+        background-color: #076612; 
+        color: white;
+        border: 2px solid transparent;
+        transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .custom-btn:hover {
+        background-color: #ffffff; 
+        color: #076612; 
+        border: 2px solid #076612;
+    }
+    
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+        .sanctuary-title {
+            font-size: 2.5rem; /* Adjust font size on smaller screens */
+        }
+    
+        .font-playfair {
+            font-size: 1.25rem; /* Adjust paragraph font size */
+        }
+    
+        .carousel-img {
+            max-height: 300px; /* Ensure carousel images are not too tall on smaller screens */
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .sanctuary-title {
+            font-size: 2rem; /* Further adjust title font size */
+        }
+    
+        .carousel-img {
+            max-height: 250px; /* Further reduce image height */
+        }
+    }
+    </style>
+    
+    <!-- <div class="container-fluid header align-items-center px-10 mb-0">
         <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
             <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
                 <div class="left-section">
-                    <!-- Main headline -->
-                    <!-- Subtext or tagline for deeper connection -->
-                    <!-- <p class="font-serif font-light italic text-xl leading-relaxed mt-4 text-gray-700 md:text-2xl">
-                        A serene space where ancient Ayurvedic wisdom meets modern wellness. Offering personalized treatments and natural therapies, it harmonizes mind, body, and spirit to restore balance and promote holistic well-being.
-                    </p> -->
-                    <!-- <img src="./img/Home/aswasam (1)_page-0001.jpg"> -->
                     <img src="./img/Home/file.png" alt="Icon" class="mx-lg-5" style="width: 400px; height: 400px;">
                     <h1 class="sanctuary-title font-playfair text-3xl font-bold leading-tight text-gray-800 md:text-4xl lg:text-5xl">
                         The Essence of Ayurvedic Care
@@ -205,72 +292,12 @@
                             border: 2px solid #ffffff; /* White border on hover */
                         }
                     </style>
-                    
-                    <!-- <h1 class="sanctuary-title text-md  leading-tight">
-                        The Essence of Ayurvedic Care
-                    </h1> -->
-                    
-                    
-                    <!-- Call to Action Button -->
-                    <!-- <a href="#services" class="cta-btn inline-block mt-6 bg-green-600 text-gray-600 py-3 px-5 rounded-full shadow-lg hover:bg-green-700">
-                        Explore Our Services
-                    </a> -->
                 </div>
-                
-                
-                <!-- <h1 class="sanctuary-title font-awesome" >The Essence of Ayurvedic Care
-                    Revitalize Your Body, Rejuvenate Your Soul
-                    Embrace Wellness, Embrace ASWASAM
-                    Natural Healing for a Healthier Tomorrow
-                    Ayurveda’s Touch, Your Path to Wellness
-                    Find Peace, Find ASWASAM</h1> -->
-          
-                <!-- <div class="row g-4">
-                    <div class="col-sm-4">
-                        <div class="border-start border-light ps-4">
-                            <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
-                            <p class="text-light mb-0">Expert Doctors</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="border-start border-light ps-4">
-                            <h2 class="text-white mb-1" data-toggle="counter-up">1234</h2>
-                            <p class="text-light mb-0">Medical Stuff</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="border-start border-light ps-4">
-                            <h2 class="text-white mb-1" data-toggle="counter-up">12345</h2>
-                            <p class="text-light mb-0">Total Patients</p>
-                        </div>
-                    </div>
-                </div> -->
             </div>
-            <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <div class="owl-carousel header-carousel">
-                    <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="img/Home/arbor-day-2.jpg" alt="">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Nurture</h1>
-                        </div>
-                    </div>
-                    <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="img/Home/side-view-man-relaxing-spa.jpg" alt="">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Find Your Peace</h1>
-                        </div>
-                    </div>
-                    <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="img/Home/herbal-compress-herbal-spa-treatment-equipments-put-dark-floor.jpg" alt="">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Herbal Bliss</h1>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="owl-carousel header-carousel">
-                    <!-- Slide 1 -->
+                    
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid carousel-img" src="img/Home/arbor-day-2.jpg" alt="Arbor Day Nurture Image">
                         <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle">
@@ -278,7 +305,7 @@
                         </div>
                     </div>
             
-                    <!-- Slide 2 -->
+                   
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid carousel-img" src="img/Home/side-view-man-relaxing-spa.jpg" alt="Man Relaxing in Spa">
                         <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle">
@@ -286,7 +313,7 @@
                         </div>
                     </div>
             
-                    <!-- Slide 3 -->
+                    
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid carousel-img" src="img/Home/herbal-compress-herbal-spa-treatment-equipments-put-dark-floor.jpg" alt="Herbal Spa Treatment">
                         <div class="owl-carousel-text position-absolute top-50 start-50 translate-middle">
@@ -297,7 +324,7 @@
             </div>
             
         </div>
-    </div>
+    </div> -->
     <!-- Header End -->
 
 
@@ -398,77 +425,25 @@
         </div>
     </div>
     <!-- Service End -->
-
-
-    <!-- doctor -->
-    <!-- <div class="container-fluid  overflow-hidden my-5 px-lg-0" style="background-color:#076612;">
+    <!-- <div class="container-fluid overflow-hidden my-5 px-lg-0" style="align-items: center; background-color:#076612;">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
                 
-                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/Home/doctor.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <p class="d-inline-block border rounded-pill text-light py-1 px-4" style="background-color: #4CAF50;">Doctors</p>
-                        <h1 class="text-white mb-4" style="font-family: 'Georgia', serif;">Our Experienced Doctor</h1>
-                        <h2 class="text-white mb-4" style="font-size: 2rem;"> Dr. Reshma Satheesh</h2>
-                        <div class="row g-4">
-                            
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                        <i class="fa fa-user-md text-primary" style="font-size: 24px;"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <h5 class="text-white mb-0" style="font-weight: 100;">Ayurvedic Practitioner & Rehabilitation Specialist</h5>
-                                    </div>
-                                </div>
-                            
-                            
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                        <i class="fa fa-check text-primary" style="font-size: 24px;"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="text-white mb-2">Qualifications</p>
-                                        <h5 class="text-white mb-0" style="font-weight: 600;">BAMS (Bachelor of Ayurvedic Medicine and Surgery)<br>Fellowship in Orthopaedic Rehabilitation</h5>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="container-fluid overflow-hidden my-5 px-lg-0" style="align-items: center; background-color:#076612;">
-        <div class="container feature px-lg-0">
-            <div class="row g-0 mx-lg-0">
                 
-                <!-- Image Section -->
-                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 200px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute img-fluid w-100 h-90" src="img/Home/doctor.jpg" style="object-fit: cover; border-top-left-radius: 10px; border-bottom-left-radius: 10px;" alt="Doctor Image">
                     </div>
                 </div>
                 
-                <!-- Text Section -->
+                
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="p-lg-5 ">
-                        
-                        <!-- Doctor Tag -->
                         <p class="d-inline-block border rounded-pill text-light py-1 px-4" style="background-color: #4CAF50; font-weight: 600;">Doctor</p>
-                        
-                        <!-- Main Heading -->
-                        <!-- <h1 class="text-white mb-4" style="font-family: 'Georgia', serif; font-size: 2.5rem;">Meet Our Expert</h1> -->
-                        
-                        <!-- Subheading -->
                         <h2 class="text-white mb-4" style="font-size: 2.2rem;font-family: 'Verdana', sans-serif;">Dr. Reshma Satheesh</h2>
                         
                         <div class="row g-4">
-                            <!-- Profile Details -->
+                            
                             <div class="col-12 d-flex align-items-center mb-3">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 60px; height: 60px;">
                                     <i class="fa-solid fa-user-doctor" style="color: #188c1a;"></i>
@@ -478,15 +453,12 @@
                                     <p>Registration No: 16073</p>
                                 </div>
                             </div>
-    
-                            <!-- Qualifications Section -->
-                            <!-- FontAwesome CDN in <head> -->
                             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-                            <!-- Icon Section -->
+                          
                             <div class="col-12 d-flex align-items-center">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-green" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-check" style="color: #167a15;"></i> <!-- or fa-solid fa-check -->
+                                    <i class="fa fa-check" style="color: #167a15;"></i> 
                                 </div>
                                 <div class="ms-4">
                                     <p class="text-white mb-2" style="font-size: 1rem; font-weight: 500;">Qualifications</p>
@@ -501,177 +473,93 @@
             </div>
         </div>
     </div>
+     -->
+     <div class="container-fluid overflow-hidden my-5 px-lg-0" style="align-items: center; background-color:#076612;">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
     
-    <!-- Feature End -->
+                <!-- Image Section -->
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 200px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/Home/doctor.jpg" style="object-fit: cover; border-top-left-radius: 10px; border-bottom-left-radius: 10px;" alt="Doctor Image">
+                    </div>
+                </div>
+    
+                <!-- Text Section -->
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5">
+    
+                        <!-- Doctor Tag -->
+                        <p class="d-inline-block border rounded-pill text-light py-1 px-4" style="background-color: #4CAF50; font-weight: 600;">Doctor</p>
+    
+                        <!-- Main Heading -->
+                        <!-- <h1 class="text-white mb-4" style="font-family: 'Georgia', serif; font-size: 2.5rem;">Meet Our Expert</h1> -->
+    
+                        <!-- Subheading -->
+                        <h2 class="text-white mb-4" style="font-size: 2.2rem; font-family: 'Verdana', sans-serif;">Dr. Reshma Satheesh</h2>
+    
+                        <div class="row g-4">
+                            <!-- Profile Details -->
+                            <div class="col-12 d-flex align-items-center mb-3">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 60px; height: 60px;">
+                                    <i class="fa-solid fa-user-doctor" style="color: #188c1a;"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h5 class="text-white mb-0" style="font-weight: 500; font-size: 1.2rem;">Ayurvedic Practitioner & Rehabilitation Specialist</h5>
+                                    <p>Registration No: 16073</p>
+                                </div>
+                            </div>
+    
+                            
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+                            <!-- Icon Section -->
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-check" style="color: #167a15;"></i> <!-- or fa-solid fa-check -->
+                                </div>
+                                <div class="ms-4">
+                                    <p class="text-white mb-2" style="font-size: 1rem; font-weight: 500;">Qualifications</p>
+                                    <h5 class="text-white mb-0" style="font-weight: 600; line-height: 1.5;">BAMS (Bachelor of Ayurvedic Medicine and Surgery)<br>Fellowship in Orthopaedic Rehabilitation</h5>
+                                </div>
+                            </div>
 
-    <!-- Team Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded-pill py-1 px-4">Doctors</p>
-                <h1>Our Experience Doctors</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Doctor Name</h5>
-                            <p class="text-primary">Department</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Doctor Name</h5>
-                            <p class="text-primary">Department</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Doctor Name</h5>
-                            <p class="text-primary">Department</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item position-relative rounded overflow-hidden">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="team-text bg-light text-center p-4">
-                            <h5>Doctor Name</h5>
-                            <p class="text-primary">Department</p>
-                            <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    
             </div>
         </div>
     </div>
-    Team End -->
-
-
-    <!-- Appointment Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="d-inline-block border rounded-pill py-1 px-4" style="color: #076612;">Appointment</p>
-                    <h1 class="mb-4 text-green">Make An Appointment To Visit Our Doctor</h1>
-                    <p class="mb-4">Schedule an appointment with our doctor to begin your journey toward natural healing and well-being. Personalized Ayurvedic care tailored just for you.</p>
-                    <div class=" rounded d-flex align-items-center p-5 mb-4" style=" color:green">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
-                            <i class="fa fa-phone-alt "></i>
-                        </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Call Us Now</p>
-                            <h5 class="mb-0">8075040440</h5>
-                        </div>
-                    </div>
-                    <div class=" rounded d-flex align-items-center p-5" style=" color:green">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
-                            <i class="fa fa-envelope-open "></i>
-                        </div>
-                        <div class="ms-4">
-                            <p class="mb-2">Mail Us Now</p>
-                            <h5 class="mb-0">aswasamayur@gmail.com</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-green rounded h-100 d-flex align-items-center p-5">
-                        <form class="form-contact contact_form"
-                        action="contact_process.php"
-                        method="post"
-                        id="contactform"
-                        novalidate="novalidate">
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control valid border-0" id="name" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control valid border-0" id="email" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control valid border-0" id="phone" placeholder="Your Mobile" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;" id="option">
-                                        <option selected>Choose Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control border-0 datetimepicker-input"
-                                            placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control border-0 datetimepicker-input"
-                                            placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" rows="5" id="message" placeholder="Describe your problem"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button style="background-color: #076612;" class="btn text-white w-100 py-3" id="s-btn" type="submit">Book Appointment</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
+    <style>
+        /* .bg-green {
+            background-color: #4cba50; 
+        } */
+    
+        /* Add responsiveness */
+        @media (max-width: 768px) {
+            .feature-text h2 {
+                font-size: 1.8rem; /* Smaller font size on mobile */
+            }
+    
+            .feature-text p {
+                font-size: 0.9rem; /* Smaller paragraph font size */
+            }
+        }
+    </style>
+    
+    <!-- Feature End -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <!-- Left side content -->
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6  wow fadeInUp" data-wow-delay="0.1s">
                     <p class="d-inline-block border rounded-pill py-1 px-4" style="color: #076612;">Appointment</p>
                     <h1 class="mb-4 text-green">Make An Appointment To Visit Our Doctor</h1>
                     <p class="mb-4">Schedule an appointment with our doctor to begin your journey toward natural healing and well-being.</p>
                     <div class="rounded d-flex align-items-center p-5 mb-4" style="color:green">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="margin-left: -50px; width: 55px; height: 55px;">
                             <i class="fa fa-phone-alt"></i>
                         </div>
                         <div class="ms-4">
@@ -679,61 +567,79 @@
                             <h5 class="mb-0">8075040440</h5>
                         </div>
                     </div>
-                    <div class="rounded d-flex align-items-center p-5" style="color:green">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                    <div class="rounded d-flex align-items-center p-5 " style="color:green">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="margin-left: -50px; width: 55px; height: 55px;">
                             <i class="fa fa-envelope-open"></i>
                         </div>
-                        <div class="ms-4">
+                        <div class="ms-4 ">
                             <p class="mb-2">Mail Us Now</p>
-                            <h5 class="mb-0">aswasamayur@gmail.com</h5>
+                            <h6 class="mb-0">aswasamayur@gmail.com</h6>
                         </div>
                     </div>
                 </div>
                 <!-- Right side form -->
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-green rounded h-100 d-flex align-items-center p-5">
-                        <form class="form-contact contact_form" action="./contact_process2.php" method="post" id="contactform" novalidate="novalidate">
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control valid border-0" id="name" name="name" placeholder="Your Name" required style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control valid border-0" id="email" name="email" placeholder="Your Email" required style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control valid border-0" id="phone" name="phone" placeholder="Your Mobile" required style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;" id="option" name="doctor">
-                                        <option selected>Choose Doctor</option>
-                                        <option value="Doctor 1">Doctor 1</option>
-                                        <option value="Doctor 2">Doctor 2</option>
-                                        <option value="Doctor 3">Doctor 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control border-0 datetimepicker-input" placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" name="date" style="height: 55px;" required>
+                <div class="col-lg-6 wow fadeInUp d-flex justify-content-center" data-wow-delay="0.5s">
+                    <div class="bg-green rounded h-100 p-5" style="width: 100%; max-width: 500px;">
+                        <div class="bg-green rounded h-100 p-5" style="width: 100%; max-width: 500px;">
+                            <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactform" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-sm-6 ">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="name" id="name" type="text" placeholder="Enter your name" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group mt-2 mt-sm-0">
+                                            <input class="form-control valid" name="email" id="email" type="email" placeholder="Email" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-12 my-2">
+                                        <div class="form-group">
+                                            <input class="form-control" name="phoneNumber" id="phoneNumber" type="text" placeholder="Enter PhoneNumber" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message" required></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control border-0 datetimepicker-input" placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" name="time" style="height: 55px;" required>
-                                    </div>
+                                <div class="form-group mt-3">
+                                    <button type="submit" id="s-btn" class="button button-contactForm boxed-btn" style="background-color: #28a745; color: white; border: none; border-radius: 50px; padding: 15px 30px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;">
+                                        Book Appointment
+                                    </button>
                                 </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" rows="5" id="message" name="message" placeholder="Describe your problem" required></textarea>
+                                <div id="successMessage" style="display: none;" class="alert alert-success text-center">
+                                    Thank you! Your message has been successfully sent. We will get back to you soon.
                                 </div>
-                                <div class="col-12">
-                                    <button style="background-color: #076612;" class="btn text-white w-100 py-3" id="s-btn" type="submit">Book Appointment</button>
+                                <div class="form-group mt-3">
+                                    <button type="submit" class="button button-contactForm boxed-btn" id="loading" style="display: none; background-color: #28a745; color: white; border: none; border-radius: 50px; padding: 15px 30px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;">Submitting...</button>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
+                        
+                        <!-- JavaScript to Prevent Empty Submission -->
+                        <script>
+                            document.getElementById('contactform').addEventListener('submit', function(event) {
+                                const name = document.getElementById('name').value;
+                                const email = document.getElementById('email').value;
+                                const phoneNumber = document.getElementById('phoneNumber').value;
+                                const message = document.getElementById('message').value;
+                                
+                                // Check if all fields are filled
+                                if (!name || !email || !phoneNumber || !message) {
+                                    event.preventDefault(); // Prevent form submission
+                                    alert('Please fill in all the required fields.');
+                                }
+                            });
+                        </script>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
     
     <!-- Appointment End -->
 
@@ -822,15 +728,66 @@
                     style="color: rgb(75, 75, 75) !important;"
                     type="email"
                     name="email"
+                    required
                     placeholder="Enter your mail"
                   />
                   <button id="s-btn1">
-                    SignUp
-                  </button>
-
-                  <button class="btn text-white py-2 position-absolute top-0 end-0 mt-2 me-2" style="background-color: #15bd29;display: none;" id="loading1">
+                    Subscribe
+                </button>
+                
+                <button class="btn text-white py-2 position-absolute top-0 end-0 mt-2 me-2" style="display: none;" id="loading1">
                     Subscribing...
-                  </button>
+                </button>
+                
+                <style>
+                 #s-btn1 {
+                    background: linear-gradient(135deg, #065f11, #20ae07); /* Beautiful gradient from Coral to Tomato */
+                    border: none;
+                    color: white;
+                    padding: 12px 25px; /* Bigger padding for more emphasis */
+                    font-size: 18px; /* Slightly larger text */
+                    font-weight: bold;
+                    border-radius: 30px; /* Rounder corners */
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+                    cursor: pointer;
+                    transition: all 0.4s ease; /* Smooth transitions on hover */
+                    text-transform: uppercase;
+                    letter-spacing: 1px; /* Add spacing between letters */
+                }
+                
+                /* Hover effect */
+                #s-btn1:hover {
+                    background: linear-gradient(135deg, #097923, #1cb904); /* Change to more vivid colors */
+                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+                    transform: translateY(-3px); /* Lift effect */
+                }
+                
+                /* Active state (when clicked) */
+                #s-btn1:active {
+                    transform: translateY(1px); /* Slight push effect when clicked */
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+                }
+                
+                /* Loading button */
+                #loading1 {
+                    background: linear-gradient(135deg, #4CAF50, #81C784); /* Green gradient for subscribing */
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    border-radius: 20px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+                    animation: pulse 1.5s infinite; /* Subtle pulsing animation */
+                }
+                
+                /* Pulse animation for loading button */
+                @keyframes pulse {
+                    0% { box-shadow: 0 0 0 rgba(76, 175, 80, 0.7); }
+                    70% { box-shadow: 0 0 20px rgba(76, 175, 80, 0.7); }
+                    100% { box-shadow: 0 0 0 rgba(76, 175, 80, 0.7); }
+                }
+                </style>
+                
                   </form>
                     <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
                     <!-- <div class="position-relative mx-auto" style="max-width: 400px;">
@@ -855,8 +812,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
@@ -875,6 +830,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
     <script>
         $(document).ready(function () {
           $('#contactform1').submit((e) => {
@@ -911,6 +867,43 @@
           })
         })
       </script>
+
+<script>
+    $(document).ready(function () {
+      $('#contactform').submit((e) => {
+        e.preventDefault()
+
+        const loading = document.getElementById('loading')
+        const btn = document.getElementById('s-btn')
+        const successMessage = document.getElementById('successMessage') // Updated ID
+
+        loading.style.display = 'block'
+        btn.style.display = 'none'
+
+        $.ajax({
+          url:
+            'https://script.google.com/macros/s/AKfycbyH6foigFQ6qbqTUmIFdKD7UqxGi5pgH8EmNKP2-ZwYHhmf_Qq9hfnJ1JyEBcUvRuzl/exec',
+          data: $('#contactform').serialize(),
+          method: 'post',
+          success: function (response) {
+            if (successMessage) {
+              successMessage.style.display = 'block' // Show success message
+            }
+            // Clear form fields
+            $('#contactform')[0].reset()
+
+            btn.style.display = 'block'
+            loading.style.display = 'none'
+          },
+          error: function (err) {
+            loading.style.display = 'none'
+            btn.style.display = 'block'
+            alert('Something went wrong. Please try again.')
+          },
+        })
+      })
+    })
+  </script>
 </body>
 
 </html>
